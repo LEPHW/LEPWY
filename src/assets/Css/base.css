@@ -1,0 +1,51 @@
+html,
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+form,
+input,
+textarea,
+th,
+td,
+select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*防止出现底部滚动条*/
+/* :root {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  :root body {
+    position: absolute;
+  }
+  body {
+    width: 100vw;
+    overflow: hidden;
+} */
+body {
+  width: 100vw;
+  overflow: hidden;
+} 
